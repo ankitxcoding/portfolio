@@ -24,11 +24,9 @@ const ParticlesBackground = () => {
     });
   }, []);
 
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
+  const particlesLoaded = () => {};
 
-  const options = useMemo(() => (particlesConfig), []);
+  const options = useMemo(() => particlesConfig, []);
 
   if (init) {
     return (
