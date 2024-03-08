@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { GITHUB_API } from "../utils/constants";
 
 const About = () => {
-  const [github, setGithub] = useState();
+  const [github, setGithub] = useState([]);
 
   useEffect(() => {
     fetchData();
