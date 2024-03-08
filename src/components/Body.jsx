@@ -6,7 +6,7 @@ function Body() {
   return (
     <>
       <ParticlesBackground />
-      <div className="flex flex-col items-center justify-center h-screen">
+      <div className="flex flex-col items-center justify-center h-screen select-none">
         <h1 className="m-1 p-1 text-white font-bold text-8xl">
           ANKIT VISHWAKARMA
         </h1>

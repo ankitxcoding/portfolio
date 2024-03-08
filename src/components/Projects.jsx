@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <>
       <ParticlesBackground />
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center select-none">
         <Link to="/" className="m-5 absolute left-0 top-0">
           <i className="fa-solid fa-house text-white text-4xl hover:scale-125"></i>
         </Link>

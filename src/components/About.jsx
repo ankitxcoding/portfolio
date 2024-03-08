@@ -23,7 +23,7 @@ const About = () => {
   return (
     <>
       <ParticlesBackground />
-      <div className="flex flex-col items-center justify-center h-screen">
+      <div className="flex flex-col items-center justify-center h-screen select-none">
         <Link to="/" className="m-5 absolute left-0 top-0">
           <i className="fa-solid fa-house text-white text-4xl hover:scale-125"></i>
         </Link>
