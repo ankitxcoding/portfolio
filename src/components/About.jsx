@@ -32,7 +32,7 @@ const About = () => {
           alt="profilePicture"
           className="w-80 rounded-full border-2 border-white"
         />
-        <p className="m-1 p-1 text-white font-semibold text-2xl w-3/4">
+        <p className="m-1 p-1 text-white font-semibold text-base text-justify w-3/4 sm:text-lg md:text-xl lg:text-2xl xl:text-2xl">
           Hello, I&apos;m Ankit Vishwakarma, a student of Bachelor of Technology
           in Computer Science and Engineering at Veer Bahadur Singh Purvanchal
           University in Jaunpur, Uttar Pradesh. I will be graduating in 2024.

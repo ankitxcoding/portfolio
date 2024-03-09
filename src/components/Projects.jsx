@@ -11,7 +11,7 @@ const Projects = () => {
         <Link to="/" className="m-5 absolute left-0 top-0">
           <i className="fa-solid fa-house text-white text-4xl hover:scale-125"></i>
         </Link>
-        <h1 className="m-1 p-1 text-white font-bold text-6xl">Projects</h1>
+        <h1 className="m-1 p-1 text-white font-bold text-4xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl">Projects</h1>
         <a
           href="https://foodz-nine.vercel.app/"
           className="m-4 text-white text-3xl font-semibold hover:text-green-500"
