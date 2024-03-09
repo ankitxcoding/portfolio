@@ -30,7 +30,7 @@ const About = () => {
         <img
           src={avatar_url}
           alt="profilePicture"
-          className="w-80 rounded-full border-2 border-white"
+          className="w-60 rounded-full border-2 border-white sm:w-60 md:w-72 lg:w-80 xl:w-80"
         />
         <p className="m-1 p-1 text-white font-semibold text-base text-justify w-3/4 sm:text-lg md:text-xl lg:text-2xl xl:text-2xl">
           Hello, I&apos;m Ankit Vishwakarma, a student of Bachelor of Technology

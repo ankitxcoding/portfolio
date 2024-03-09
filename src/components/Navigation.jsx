@@ -8,7 +8,7 @@ const Navigation = () => {
 
   return (
     <div className="m-1 p-1">
-      <ul className="flex text-white font-semibold text-xl">
+      <ul className="flex text-white font-semibold text-lg sm:text-lg md:text-xl lg:text-xl xl:text-xl">
         {isProjects && (
           <li className="mx-2 hover:cursor-pointer relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
             <Link to="/">Home</Link>
