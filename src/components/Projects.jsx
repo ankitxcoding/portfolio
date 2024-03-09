@@ -21,7 +21,7 @@ const Projects = () => {
         <iframe
           src="https://foodz-nine.vercel.app/"
           title="foodz"
-          className="w-4/5 m-4 h-[40rem] rounded-md shadow-md shadow-gray-300 bg-white"
+          className="w-4/5 m-4 h-[40rem] rounded-md shadow-md shadow-gray-300"
         ></iframe>
         <a
           href="https://ankitxcoding.github.io/eCommerce/"
