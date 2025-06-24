@@ -1,5 +1,5 @@
 import { EMAIL_ID, GITHUB_URL, LINKEDIN_URL } from "../utils/constants";
-import myResume from "../assets/myResume.pdf";
+import Ankit_Vishwakarma_Resume from "../assets/Ankit_Vishwakarma_Resume";
 
 const FollowLinks = () => {
   return (
@@ -23,7 +23,7 @@ const FollowLinks = () => {
         rel="noopener noreferrer"
       ></a>
       <a
-        href={myResume}
+        href={Ankit_Vishwakarma_Resume}
         target="_blank"
         className="fa-regular fa-file-pdf mx-2 text-white text-4xl border-2 border-white px-[10px] py-2 rounded-full hover:text-green-700 hover:bg-white"
         rel="noopener noreferrer"
