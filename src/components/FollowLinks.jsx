@@ -1,5 +1,5 @@
 import { EMAIL_ID, GITHUB_URL, LINKEDIN_URL } from "../utils/constants";
-import Ankit_Vishwakarma_Resume from "../assets/Ankit_Vishwakarma_Resume";
+import Ankit_Vishwakarma_Resume from "../assets/Ankit_Vishwakarma_Resume.pdf";
 
 const FollowLinks = () => {
   return (
