@@ -15,6 +15,17 @@ const Projects = () => {
           Projects
         </h1>
         <a
+          href="https://ottstreamify.vercel.app/"
+          className="m-4 text-white text-3xl font-semibold hover:text-amber-500"
+        >
+          <i className="fa-solid fa-link text-xl"></i> OttStreamify
+        </a>
+        <iframe
+          src="https://ottstreamify.vercel.app/"
+          title="OttStreamify"
+          className="w-4/5 m-4 h-[40rem] rounded-md shadow-md shadow-gray-300"
+        ></iframe>
+        <a
           href="https://foodz-nine.vercel.app/"
           className="m-4 text-white text-3xl font-semibold hover:text-green-500"
         >
@@ -23,17 +34,6 @@ const Projects = () => {
         <iframe
           src="https://foodz-nine.vercel.app/"
           title="foodz"
-          className="w-4/5 m-4 h-[40rem] rounded-md shadow-md shadow-gray-300"
-        ></iframe>
-        <a
-          href="https://movieznseriez.vercel.app/"
-          className="m-4 text-white text-3xl font-semibold hover:text-amber-500"
-        >
-          <i className="fa-solid fa-link text-xl"></i> MoviezNSeriez
-        </a>
-        <iframe
-          src="https://movieznseriez.vercel.app/"
-          title="MoviesAndTVShows"
           className="w-4/5 m-4 h-[40rem] rounded-md shadow-md shadow-gray-300"
         ></iframe>
         <a
