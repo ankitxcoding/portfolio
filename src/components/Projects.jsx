@@ -2,6 +2,7 @@ import ParticlesBackground from "./ParticlesBackground";
 import Navigation from "./Navigation";
 import FollowLinks from "./FollowLinks";
 import { Link } from "react-router-dom";
+import { ECOMMERCE_URL, FOODZ_URL, OTTSTREAMIFY_URL } from "../utils/constants";
 
 const Projects = () => {
   return (
@@ -15,35 +16,38 @@ const Projects = () => {
           Projects
         </h1>
         <a
-          href="https://ottstreamify.vercel.app/"
+          href={OTTSTREAMIFY_URL}
+          target="_blank"
           className="m-4 text-white text-3xl font-semibold hover:text-amber-500"
         >
           <i className="fa-solid fa-link text-xl"></i> OttStreamify
         </a>
         <iframe
-          src="https://ottstreamify.vercel.app/"
+          src={OTTSTREAMIFY_URL}
           title="OttStreamify"
           className="w-4/5 m-4 h-[40rem] rounded-md shadow-md shadow-gray-300"
         ></iframe>
         <a
-          href="https://foodz-nine.vercel.app/"
+          href={FOODZ_URL}
+          target="_blank"
           className="m-4 text-white text-3xl font-semibold hover:text-green-500"
         >
           <i className="fa-solid fa-link text-xl"></i> Foodz
         </a>
         <iframe
-          src="https://foodz-nine.vercel.app/"
+          src={FOODZ_URL}
           title="foodz"
           className="w-4/5 m-4 h-[40rem] rounded-md shadow-md shadow-gray-300"
         ></iframe>
         <a
-          href="https://ankitxcoding.github.io/eCommerce/"
+          href={ECOMMERCE_URL}
+          target="_blank"
           className="m-4 text-white text-3xl font-semibold hover:text-yellow-500"
         >
           <i className="fa-solid fa-link text-xl"></i> eCommerce
         </a>
         <iframe
-          src="https://ankitxcoding.github.io/eCommerce/"
+          src={ECOMMERCE_URL}
           title="eCommerce"
           className="w-4/5 m-4 h-[40rem] rounded-md shadow-md shadow-gray-300"
         ></iframe>
